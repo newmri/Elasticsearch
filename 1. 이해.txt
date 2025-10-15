@@ -1,0 +1,3 @@
+Filebeat: 로그 파일 읽어서 Elasticsearch나 Logstash로 전송
+Logstash: 데이터 파싱, 구조화 가공해서 Elasticsearch, DB 등으로 전송
+X-Pack: 보안, 리포팅, 머신러닝 등 고급 유료 기능
