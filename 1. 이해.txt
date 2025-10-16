@@ -1,3 +1,9 @@
 Filebeat: 로그 파일 읽어서 Elasticsearch나 Logstash로 전송
 Logstash: 데이터 파싱, 구조화 가공해서 Elasticsearch, DB 등으로 전송
 X-Pack: 보안, 리포팅, 머신러닝 등 고급 유료 기능
+
+number_of_shards: 프라이머리 샤드 갯수
+number_of_replicas: 샤드당 리플리카 갯수
+EX) shards 3개, replica 2개면
+총 shards는 프라이머리 3개 + 리플리카 6개 = 9개
+프라이머리에서 write하고 리플리카는 읽기 + 백업용
