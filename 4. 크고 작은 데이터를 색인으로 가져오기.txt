@@ -36,3 +36,5 @@ output {
 
 5. cd /usr/share/logstash/
 6. sudo bin/logstash -f /etc/logstash/conf.d/logstash.conf
+
+grok: 로그 필터 형식
